@@ -11,6 +11,7 @@ function Header() {
     const totalQuantity = state.cart.reduce((acc, travel) => acc + travel.quantity, 0,);
 
     
+    
     return(
         <Container>
             <HeaderContainer>
